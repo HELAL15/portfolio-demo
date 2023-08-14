@@ -186,21 +186,22 @@ section{
   border: 1px solid #eee;
   min-height: 14em;
   overflow: hidden;
-  border-radius: 10px;
-  margin: 20px;
+  border-radius: 22px;
+  margin: 15px;
   transition: .4s ease;
-  width: 100%;
+  width: 25%;
 }
-
-.projectCard:hover{
+.projectImg img{
+  width: 100%;
+  transition: .3s;
+}
+.projectCard:hover img{
   transform: scale(1.1);
 }
 .projectCard:hover .projectImg{
   opacity: 0.9;
 }
-.projectImg img{
-  width: 100%;
-}
+
 
 .projectInfo{
   padding: 1em;
